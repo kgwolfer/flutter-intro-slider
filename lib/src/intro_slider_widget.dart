@@ -589,8 +589,8 @@ class IntroSliderState extends State<IntroSlider>
                   int currentTabIndex = snapshot.data ?? 0;
                   return Container(
                     alignment: Alignment.center,
-                    width: widthDevice / 4,
-                    height: 50,
+                    // width: widthDevice / 4,
+                    // height: 50,
                     child: currentTabIndex + 1 == lengthSlide
                         ? isShowDoneBtn
                             ? buildDoneButton()
